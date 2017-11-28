@@ -10,9 +10,15 @@ This is an attempt to keep track of amendments to constitutional instruments and
 
 Print versions omit the original text deleted by an amendment which is sometimes necessary to understand the amendment. This project aims to provide views of the constitution after each amendment, and any deleted text is shown with strikethrough font effect. 
 
-## Installation
+## How to use
 
-Git is required to be installed to be able to browse through the versions of the constitution.
+### Browse on github.com
+
+Select the branch  and view the coi.pdf file corresponding to the amendment on the browser.  For example, to view the Constitution of India, as it stood after the 2nd Amendment, select the corresponding branch coi-002 from the "Branch: master" dropdown list, and then browse the coi.pdf file.
+
+### Browse after Installing Git
+
+The better way to browse and use the files is by installing Git, the version control system.
 
 Installing git on gnu/linux, mac, windows and from source is explained at:
 
@@ -28,9 +34,7 @@ https://github.com/ramanraj/coin-docs/archive/master.zip
 
 After installing git and downloading the coin-docs files, use git commands to checkout into desired branch corresponding to the amendment to browse the coi.pdf file version.
 
-## How to use
-
-### On gnu/linux systems:
+#### On gnu/linux systems:
 
 ```
 cd /usr/local/src/coin-docs
